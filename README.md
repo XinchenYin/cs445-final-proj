@@ -38,7 +38,7 @@
 
 1. Download coco dataset from http://images.cocodataset.org/zips/train2014.zip, unzip it under `dataset` directory.
 2. Put your style image under `images` directory.
-3. Modify `STYLE_IMAGE_PATH` of `train.py` to the style image of yours. (line 21)
-4. modify any parameters in `train.py` to whatever you want.
-5. Under the CS445_FAST_NST directory, run `train.py` without any parameters.
-6. After training, you can test the effects on a single image by changing `TEST_INPUT` and `TEST_MODEL` in `train.py` to your input image path and your model path and utilize the function `test_stylize()` instead of `train()`.
+3. Modify `STYLE_IMAGE_PATH` of `train.py` to the style image of yours. 
+5. Modify any parameters in `train.py` to whatever you want.
+6. Under the `FAST_NST` directory, run `train.py` without any parameters using function `train()`.
+7. After training, you can test the effects on a single image by changing `TEST_INPUT` and `TEST_MODEL` in `train.py` to your input image path and your model path and utilize the function `test_stylize()` instead of `train()`.
